@@ -1,0 +1,48 @@
+.landing{
+	background:url('../images/landing.jpg')no-repeat center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.landing-caption{
+	 position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.landing-caption h1, .landing-caption h3 {
+	color: #fff;
+}
+
+.landing-caption button{
+    background: none;
+    border: 4px double #FB544D;
+    border-radius: 22px;
+    padding: 12px 21px;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.more-info{
+	padding: 10px 0;
+}
+
+.about,.contact{
+	padding: 20px 0;
+}
+
+.about{
+	background:url('../images/about.jpg')no-repeat center;
+	background-size: cover;
+	height: 100vh;
+	color: #fff;
+}
+
+.contact{
+   	height: 30vh;
+    background: #0b0b0c;
+    border-top: 2px solid #fff;
+    color: #fff;
+}
