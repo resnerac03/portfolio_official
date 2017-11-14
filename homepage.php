@@ -40,6 +40,7 @@ Template Name: Homepage
 
 					<div class="contact text-center">
 						<h1>CONTACT</h1>
+						<p>+639360613776</p>
 					</div>
 					
 				<?php endwhile; endif; ?>							
