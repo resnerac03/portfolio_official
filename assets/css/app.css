@@ -5,6 +5,13 @@
 	position: relative;
 }
 
+.transparent{
+    background: rgba(0, 0, 0, 0.67);
+    height: 100vh;
+    background-size: cover;
+}
+
+
 .landing-caption{
 	 position: absolute;
     top: 50%;

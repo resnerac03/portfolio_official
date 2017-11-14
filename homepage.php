@@ -14,11 +14,14 @@ Template Name: Homepage
 				
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
+					
 					<div class="landing">
-						<div class="landing-caption text-center">
-							<h3><?php the_field('name'); ?></h3>
-							<h1><?php the_field('profession'); ?></h1>
-							<button class="button">LET'S GET TO WORK</button>
+						<div class="transparent">
+							<div class="landing-caption text-center">
+								<h3><?php the_field('name'); ?></h3>
+								<h1><?php the_field('profession'); ?></h1>
+								<button class="button">LET'S GET TO WORK</button>
+							</div>
 						</div>
 					</div>
 
